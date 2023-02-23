@@ -171,8 +171,8 @@ export default function Editor() {
       <Head>
         <title>Editor</title>
       </Head>
-    <div className=' flex-col justify-between bg-gradient-to-tr from-blue-500 to-green-500'>
-      <h1 className=' title mt-40
+    <div className=' flex-col justify-between bg-gradient-to-tr from-blue-500 to-green-500 pt-20'>
+      <h1 className=' title pt-10 m-14
       '>React Converter</h1>
       <div className='flex flex-col w-full'>
   
@@ -242,7 +242,7 @@ export default function Editor() {
 
         <div className='code'>
         <button className=' bg-blue-600 text-xl shadow-2xl shadow-black drop-shadow-2xl focus:bg-green-600 text-white rounded-xl ' onClick={handleCopyHTML}>
-        {copied1 ? "Copied!" : "Copy to Clipboard"}
+        Copy 
       </button>
        
           <h3 className=' codeh3'>HTML</h3>
@@ -258,7 +258,7 @@ export default function Editor() {
 
         <div className=' bg-red-600 code'>
         <button className=' bg-blue-500 text-xl focus:bg-green-600 shadow-2xl shadow-black text-white rounded-xl ' onClick={handleCopy}>
-        {copied ? "Copied!" : "Copy to Clipboard"}
+        Copy 
       </button>
           <h3 className=' codeh3'>React Component</h3>
           <p className=' codep  bg-red-600' id="Reactcode">react:</p>
